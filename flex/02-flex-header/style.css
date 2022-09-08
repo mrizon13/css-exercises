@@ -22,7 +22,7 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 10px;
-  align-items: flex-start;
+  gap: 10px;
   
 }
 
