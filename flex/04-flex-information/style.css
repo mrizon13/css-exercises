@@ -6,28 +6,20 @@ img {
   width: 100px;
   height: 100px;
   display: flex;
-  justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
   display: flex;
-  align-items: flex-start;
   justify-content: center;
   margin: 32px;
 }
 
-.barberry, .chili, .pepper, .saffron {
+.plants, .text {
   display: flex;
-  align-items: center;
   margin: 52px;
-}
-
-.text {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
