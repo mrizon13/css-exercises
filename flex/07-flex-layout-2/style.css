@@ -10,8 +10,9 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  font-size: xx-large;
-  font-weight: 800;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
 
 .footer {
@@ -27,6 +28,7 @@ body {
   width: 300px;
   background: royalblue;
   display: flex;
+  max-width: 300px;
 }
 
 .card {
@@ -34,8 +36,10 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  padding: 32px;
 }
-
 
 a {
   /* this removes the line under the links */
@@ -47,8 +51,14 @@ a {
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  gap: 50px;
+  font-size: 24px;
+  padding: 16px;
+  align-items: flex-start;
+}
+
+.container {
   display: flex;
-  gap: 20px;
-
-
+  flex-wrap: wrap;
+  align-items: center;
 }
